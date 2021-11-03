@@ -1,0 +1,64 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr, 3fr, 10fr;
+}
+
+header {
+    background-color: olive;
+    height: 25%;
+    text-align: center;
+
+}
+
+nav {
+display: flex;
+flex-direction: column;
+background-color: white;
+text-align: center;
+height: 20px;
+grid-template-columns: auto;
+
+
+
+
+
+}
+
+main {
+
+
+}
+
+footer{
+    background-color: olive;
+    height: 100px;
+
+
+
+}
+
+.Options {
+    color: olive;
+    text-align: center;
+}
+
+img {
+height: auto;
+width: 985px;
+}
